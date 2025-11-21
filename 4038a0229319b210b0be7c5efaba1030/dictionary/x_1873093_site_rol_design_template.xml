@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="156968a29319b210b0be7c5efaba1035" label="Design Template" max_length="40" name="x_1873093_site_rol_design_template" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Site Type" max_length="50" name="site_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Warehouse" sequence="1" value="warehouse"/>
+                <element inactive_on_update="false" label="Manufacturing" sequence="5" value="manufacturing"/>
+                <element inactive_on_update="false" label="Office" sequence="2" value="office"/>
+                <element inactive_on_update="false" label="Universal" sequence="6" value="universal"/>
+                <element inactive_on_update="false" label="Distribution Center" sequence="3" value="distribution_center"/>
+                <element inactive_on_update="false" label="Headquarters" sequence="4" value="headquarters"/>
+                <element inactive_on_update="false" label="Retail Store" sequence="0" value="retail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Template Name" mandatory="true" max_length="100" name="template_name" type="string"/>
+        <element default="1.0" label="Version" max_length="40" name="version" type="version"/>
+        <element attributes="edge_encryption_enabled=true" label="Template Code" mandatory="true" max_length="30" name="template_code" type="string"/>
+    </element>
+</database>

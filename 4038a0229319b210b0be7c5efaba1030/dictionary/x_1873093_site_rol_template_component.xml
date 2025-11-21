@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cce9a4ee93d5b210b0be7c5efaba1069" label="Template Component" max_length="40" name="x_1873093_site_rol_template_component" type="collection">
+        <element default="1" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="encode_utf8=false" label="Design Template" mandatory="true" max_length="32" name="design_template" reference="x_1873093_site_rol_design_template" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Component Name" mandatory="true" max_length="100" name="component_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="50" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Network Equipment" sequence="2" value="network_equipment"/>
+                <element inactive_on_update="false" label="Infrastructure" sequence="6" value="infrastructure"/>
+                <element inactive_on_update="false" label="POS System" sequence="3" value="pos_system"/>
+                <element inactive_on_update="false" label="Accessories" sequence="7" value="accessories"/>
+                <element inactive_on_update="false" label="Security System" sequence="4" value="security_system"/>
+                <element inactive_on_update="false" label="Services" sequence="8" value="services"/>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="hardware"/>
+                <element inactive_on_update="false" label="Display Equipment" sequence="5" value="display_equipment"/>
+                <element inactive_on_update="false" label="Other" sequence="9" value="other"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="software"/>
+            </choice>
+        </element>
+        <element default="true" label="Required" max_length="40" name="required" type="boolean"/>
+        <index name="index">
+            <element name="design_template"/>
+        </index>
+    </element>
+</database>
