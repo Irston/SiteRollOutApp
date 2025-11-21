@@ -1,0 +1,6 @@
+{
+  "scope": "x_1873093_site_rol",
+  "scopeId": "4038a0229319b210b0be7c5efaba1030",
+  "name": "Site Rollout",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
