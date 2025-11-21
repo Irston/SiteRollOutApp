@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12e828629319b210b0be7c5efaba104b" label="Site" max_length="40" name="x_1873093_site_rol_site" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Site Code" mandatory="true" max_length="20" name="site_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="500" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Site Type" max_length="50" name="site_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Warehouse" sequence="1" value="warehouse"/>
+                <element inactive_on_update="false" label="Manufacturing" sequence="5" value="manufacturing"/>
+                <element inactive_on_update="false" label="Office" sequence="2" value="office"/>
+                <element inactive_on_update="false" label="Distribution Center" sequence="3" value="distribution_center"/>
+                <element inactive_on_update="false" label="Headquarters" sequence="4" value="headquarters"/>
+                <element inactive_on_update="false" label="Retail Store" sequence="0" value="retail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Site Name" mandatory="true" max_length="100" name="site_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="planning" label="Rollout Status" max_length="50" name="rollout_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Planning" sequence="0" value="planning"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="On Hold" sequence="5" value="on_hold"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+                <element inactive_on_update="false" label="Testing" sequence="3" value="testing"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Design Template" max_length="32" name="design_template" reference="x_1873093_site_rol_design_template" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Planned Start Date" max_length="40" name="planned_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Planned Go-Live Date" max_length="40" name="planned_go_live_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Assigned Manager" max_length="32" name="assigned_manager" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_manager"/>
+        </index>
+        <index name="index2">
+            <element name="design_template"/>
+        </index>
+    </element>
+</database>

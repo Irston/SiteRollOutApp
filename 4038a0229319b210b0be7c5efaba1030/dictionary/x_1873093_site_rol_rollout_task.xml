@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="465baca69319b210b0be7c5efaba1096" label="Rollout Task" max_length="40" name="x_1873093_site_rol_rollout_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Task Type" max_length="50" name="task_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Equipment Delivery" sequence="2" value="equipment_delivery"/>
+                <element inactive_on_update="false" label="Training" sequence="6" value="training"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="10" value="maintenance"/>
+                <element inactive_on_update="false" label="Installation" sequence="3" value="installation"/>
+                <element inactive_on_update="false" label="Documentation" sequence="7" value="documentation"/>
+                <element inactive_on_update="false" label="Configuration" sequence="4" value="configuration"/>
+                <element inactive_on_update="false" label="Go Live" sequence="8" value="go_live"/>
+                <element inactive_on_update="false" label="Planning" sequence="0" value="planning"/>
+                <element inactive_on_update="false" label="Testing" sequence="5" value="testing"/>
+                <element inactive_on_update="false" label="Post Deployment" sequence="9" value="post_deployment"/>
+                <element inactive_on_update="false" label="Site Survey" sequence="1" value="site_survey"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Site" mandatory="true" max_length="32" name="site" reference="x_1873093_site_rol_site" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assigned Vendor" max_length="32" name="assigned_vendor" reference="x_1873093_site_rol_vendor" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assigned Field Tech" max_length="32" name="assigned_field_tech" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Task Name" mandatory="true" max_length="100" name="task_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not_started" label="Status" max_length="50" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="Waiting Vendor" sequence="4" value="waiting_vendor"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on_hold"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+                <element inactive_on_update="false" label="Waiting Approval" sequence="3" value="waiting_approval"/>
+                <element inactive_on_update="false" label="Failed" sequence="7" value="failed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <index name="index">
+            <element name="assigned_field_tech"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_vendor"/>
+        </index>
+        <index name="index3">
+            <element name="site"/>
+        </index>
+    </element>
+</database>

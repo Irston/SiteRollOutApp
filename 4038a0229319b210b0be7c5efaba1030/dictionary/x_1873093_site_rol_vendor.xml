@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="565baca69319b210b0be7c5efaba10f3" label="Vendor" max_length="40" name="x_1873093_site_rol_vendor" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contact Person" max_length="100" name="contact_person" type="string"/>
+        <element default="3" label="Rating" max_length="40" name="rating" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="30" name="phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Vendor Name" mandatory="true" max_length="100" name="vendor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="50" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="Hardware Supplier" sequence="0" value="hardware_supplier"/>
+                <element inactive_on_update="false" label="Maintenance Provider" sequence="4" value="maintenance_provider"/>
+                <element inactive_on_update="false" label="Software Vendor" sequence="1" value="software_vendor"/>
+                <element inactive_on_update="false" label="Consulting Services" sequence="5" value="consulting_services"/>
+                <element inactive_on_update="false" label="Network Provider" sequence="2" value="network_provider"/>
+                <element inactive_on_update="false" label="Logistics Provider" sequence="6" value="logistics_provider"/>
+                <element inactive_on_update="false" label="Installation Contractor" sequence="3" value="installation_contractor"/>
+                <element inactive_on_update="false" label="Security Services" sequence="7" value="security_services"/>
+            </choice>
+        </element>
+    </element>
+</database>
