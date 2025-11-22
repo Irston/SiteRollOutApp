@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description>Manage spatial technology rollouts across multiple sites</description>
+        <device_type>browser</device_type>
+        <hint>Access site management, templates, checklists, tasks, and vendor coordination</hint>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7cb607fec7446fcb6d7a5fb7ce41bf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Site Rollout Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Site Rollout" source="x_1873093_site_rol">4038a0229319b210b0be7c5efaba1030</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Site Rollout">4038a0229319b210b0be7c5efaba1030</sys_scope>
+        <sys_update_name>sys_app_application_c7cb607fec7446fcb6d7a5fb7ce41bf3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+        <title>Site Rollout Manager</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

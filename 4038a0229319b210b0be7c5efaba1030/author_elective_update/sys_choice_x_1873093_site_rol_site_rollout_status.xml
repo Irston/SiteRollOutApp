@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rollout_status" table="x_1873093_site_rol_site" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rollout_status</element>
+            <name>x_1873093_site_rol_site</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rollout_status</sys_name>
+            <sys_package display_value="Site Rollout" source="x_1873093_site_rol">4038a0229319b210b0be7c5efaba1030</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Site Rollout">4038a0229319b210b0be7c5efaba1030</sys_scope>
+            <sys_update_name>sys_choice_x_1873093_site_rol_site_rollout_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Planning</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>in_progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Testing</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>on_hold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rollout_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_1873093_site_rol_site</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 17:43:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 17:43:11</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
