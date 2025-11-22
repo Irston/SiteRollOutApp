@@ -5,6 +5,7 @@ import { Table, StringColumn, ReferenceColumn, DateColumn } from '@servicenow/sd
 export const x_1873093_site_rol_rollout_task = Table({
     name: 'x_1873093_site_rol_rollout_task',
     label: 'Rollout Task',
+    //test
     schema: {
         task_name: StringColumn({ 
             label: 'Task Name', 
